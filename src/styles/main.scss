@@ -1,0 +1,8 @@
+@use "./components/navbar" as *;
+@use "variables" as *;
+
+body {
+    margin: 0;
+    font-family: $font-primary;
+    background-color: var(--background-color);
+}
