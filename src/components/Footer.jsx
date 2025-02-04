@@ -1,5 +1,8 @@
 import { useLanguage } from "../context/LanguageContext";
 import Logo from "../assets/images/Logo.png";
+import GithubIcon from "../assets/icons/github-icon";
+import CVIcon from "../assets/icons/cv-icon";
+import LinkedinIcon from "../assets/icons/linkedin-icon";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -16,6 +19,22 @@ export default function Footer() {
             {t("footer.stack")}
             <br /> {t("footer.thanks")}
           </p>
+          <div className="footer__container__icons">
+            <a href="https://github.com/JDiazc0">
+              <GithubIcon
+                styling={{ size: `24px`, fill: `var(--font-color)` }}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/jhoan-andres-diaz-casta%C3%B1o/">
+              <LinkedinIcon
+                styling={{ size: `24px`, stroke: `var(--font-color)` }}
+              />
+            </a>
+            <a href="/curriculum">
+              <CVIcon styling={{ size: `24px`, fill: `var(--font-color)` }} />
+            </a>
+          </div>
+          <p>© Reserved JDiazc0</p>
         </div>
         <div className="footer__general">
           <ul>
@@ -39,7 +58,7 @@ export default function Footer() {
           </ul>
           <ul>
             <li>
-              <a href="/">Curriculum</a>
+              <a href="/curriculum">Curriculum</a>
             </li>
             <li>
               <a href="/aboutme">{t("navbar.projects")}</a>

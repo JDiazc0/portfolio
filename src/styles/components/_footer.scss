@@ -6,6 +6,10 @@
     &__container{
         gap: 1rem;
         width: 300px;
+        &__icons{
+            display: flex;
+            gap: 1rem;
+        }
         img{
             height: 40px;
             width: 40px;
