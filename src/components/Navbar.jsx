@@ -1,7 +1,7 @@
 import Logo from "../assets/images/Logo.png";
 import MoonIcon from "../assets/icons/moon-icon";
 import SunIcon from "../assets/icons/sun-icon";
-import { useLanguage } from "../hooks/useLanguage";
+import { useLanguage } from "../context/LanguageContext";
 import { useTheme } from "../hooks/useTheme";
 
 export default function Navbar() {

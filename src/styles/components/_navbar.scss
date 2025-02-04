@@ -1,12 +1,20 @@
 @use "../variables" as *;
 
 .navbar {
-    padding: 1rem;
-    &__container{
+    padding-top: 1rem;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    &__container {
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        padding: 0 2rem;
+        justify-content: space-between;
+        max-width: 1200px; 
+        margin: 0 auto; 
+        padding: 0 2rem; 
     }
 
     &__logo {
@@ -29,17 +37,17 @@
         border: 1px solid var(--secondary-color);
         border-radius: 9999px;
         background-color: var(--opacity-color);
+        backdrop-filter: blur(2.5px);
         height: 50px;
         min-height: 50px;
     }
 
-    &__links
-    {    
+    &__links {    
         width: 23rem;
-        &--link{
+        &--link {
             text-decoration: none;
             color: var(--font-color);
-            font-weight: $font-medium;
+            font-weight: $font-bold;
             transition: color 0.3s ease;
             &:hover {
                 color: var(--tertiary-color);
@@ -47,7 +55,7 @@
         }
     }
 
-    &__settings{
+    &__settings {
         width: 6rem;
         button {
             border: none;

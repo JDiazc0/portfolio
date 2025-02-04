@@ -1,8 +1,17 @@
 @use "./components/navbar" as *;
+@use "./components/footer" as *;
 @use "variables" as *;
 
 body {
-    margin: 0;
+    margin: 1.5rem 3rem;
+    width: full;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: $font-primary;
     background-color: var(--background-color);
+}
+
+.app{
+    width: 1200px;
 }
