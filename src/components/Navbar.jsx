@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 import Logo from "../assets/images/Logo.png";
+import MoonIcon from "../assets/icons/moon-icon";
+import SunIcon from "../assets/icons/sun-icon";
 import { useLanguage } from "../hooks/useLanguage";
 import { useTheme } from "../hooks/useTheme";
 
@@ -32,7 +32,15 @@ export default function Navbar() {
           </div>
           <div className="navbar__settings">
             <button onClick={toggleTheme}>
-              {theme === "light" ? "light" : "dark"}
+              {theme === "light" ? (
+                <SunIcon
+                  styling={{ stroke: `var(--font-color)`, size: `24px` }}
+                />
+              ) : (
+                <MoonIcon
+                  styling={{ fill: `var(--font-color)`, size: `24px` }}
+                />
+              )}
             </button>
             <button onClick={() => setLang(currentLang === "es" ? "en" : "es")}>
               {currentLang.toUpperCase()}

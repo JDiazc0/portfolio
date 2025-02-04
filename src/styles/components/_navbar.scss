@@ -2,7 +2,7 @@
 
 .navbar {
     padding: 1rem;
-    &__container {
+    &__container{
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -15,12 +15,28 @@
         border-radius: 9999px;
         object-fit: cover;
         border: 1px solid var(--secondary-color);
+        &:hover {
+            cursor: pointer;
+        }
     }
 
-    &__links {
+    &__links, &__settings {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
         gap: 1rem;
-        &--link {
+        border: 1px solid var(--secondary-color);
+        border-radius: 9999px;
+        background-color: var(--opacity-color);
+        height: 50px;
+        min-height: 50px;
+    }
+
+    &__links
+    {    
+        width: 23rem;
+        &--link{
             text-decoration: none;
             color: var(--font-color);
             font-weight: $font-medium;
@@ -31,13 +47,24 @@
         }
     }
 
-   &__links, &__settings {
-        border: 1px solid var(--secondary-color);
-        background-color: var(--opacity-color);
-       
-        padding: 1rem 2rem;
-        border-radius: 9999px;
+    &__settings{
+        width: 6rem;
+        button {
+            border: none;
+            background-color: transparent;
+            color: var(--font-color);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px; 
+            width: 40px; 
+            height: 40px; 
+            transition: background-color 0.3s ease;
+            font-weight: $font-bold;
+            &:hover {
+                background-color: var(--primary-color); 
+            }
+        }
     }
-
-    
 }
