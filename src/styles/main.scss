@@ -1,5 +1,6 @@
 @use "./components/navbar" as *;
 @use "./components/footer" as *;
+@use "./components/home" as *;
 @use "variables" as *;
 
 body {
@@ -10,6 +11,10 @@ body {
     align-items: center;
     font-family: $font-primary;
     background-color: var(--background-color);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
 }
 
 .app{

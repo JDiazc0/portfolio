@@ -30,7 +30,7 @@ export default function Footer() {
                 styling={{ size: `24px`, stroke: `var(--font-color)` }}
               />
             </a>
-            <a href="/curriculum">
+            <a href="/cv_Jhoan_Diaz.pdf" download="cv_Jhoan_Diaz.pdf">
               <CVIcon styling={{ size: `24px`, fill: `var(--font-color)` }} />
             </a>
           </div>
