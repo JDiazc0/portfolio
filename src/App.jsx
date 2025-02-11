@@ -3,6 +3,7 @@ import { LanguageProvider } from "./context/LanguageContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Curriculum from "./pages/curriculum";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
               <div className="app">
                 <Navbar />
                 <main className="main-content">
-                  <Routes></Routes>
+                  <Routes>
+                    <Route path="/" element={<Home />} />
+                  </Routes>
                 </main>
                 <Footer />
               </div>

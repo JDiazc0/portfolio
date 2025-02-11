@@ -13,4 +13,13 @@ export default {
     work: "Work",
     home: "Home",
   },
+  home: {
+    title: "Hi, I'm Jhoan!",
+    stackBack: "Backend Developer",
+    stackGame: "Game Developer",
+    descriptionBack:
+      "I develop scalable web applications with Laravel, Spring Boot and .NET, focusing on best practices and clean architecture. Passionate about learning new technologies and solving technical challenges.",
+    descriptionGame:
+      "I develop video games with Unity, focusing on gameplay and user experience.",
+  },
 };
