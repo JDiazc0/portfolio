@@ -1,4 +1,5 @@
 import GithubIcon from "../assets/icons/github-icon";
+import WebIcon from "../assets/icons/web-icon";
 
 export default function Project({ props }) {
   const {
@@ -28,7 +29,7 @@ export default function Project({ props }) {
           <div className="project_component__info__links">
             {projectLink && (
               <a href={projectLink}>
-                <GithubIcon
+                <WebIcon
                   styling={{ size: `24px`, fill: `var(--font-color)` }}
                 />
               </a>

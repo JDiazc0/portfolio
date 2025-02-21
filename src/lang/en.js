@@ -62,6 +62,15 @@ export default {
     title: "Projects",
     project: [
       {
+        projectImage: "/projectScreen/Doppel.png",
+        projectTitle: "Doppel",
+        projectTechnologies: ["Unity", "C#"],
+        projectDescription:
+          "Videogame developed in 2D platform unity with mechanics of using alter ego abilities.",
+        projectLink: "https://cerodev.itch.io/doppel",
+        projectRepository: "https://github.com/JDiazc0/doppel",
+      },
+      {
         projectImage: "/projectScreen/VirtualMarket.png",
         projectTitle: "Virtual Market Backend",
         projectTechnologies: ["PHP", "Laravel", "Insomnia", "PostgreSQL"],

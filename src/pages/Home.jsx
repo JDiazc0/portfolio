@@ -3,6 +3,7 @@ import { useLanguage } from "../context/LanguageContext";
 import GithubIcon from "../assets/icons/github-icon";
 import CVIcon from "../assets/icons/cv-icon";
 import LinkedinIcon from "../assets/icons/linkedin-icon";
+import ItchioIcon from "../assets/icons/itchio-icon";
 
 export default function Home() {
   const { t } = useLanguage();
@@ -44,8 +45,8 @@ export default function Home() {
             styling={{ size: `24px`, stroke: `var(--font-color)` }}
           />
         </a>
-        <a href="/cv_Jhoan_Diaz.pdf" download="cv_Jhoan_Diaz.pdf">
-          <CVIcon styling={{ size: `24px`, fill: `var(--font-color)` }} />
+        <a href="https://itch.io/profile/cerodev">
+          <ItchioIcon styling={{ size: `24px`, fill: `var(--font-color)` }} />
         </a>
       </div>
     </div>

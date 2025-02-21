@@ -8,10 +8,11 @@
         color: var(--font-color);
         font-size: 2rem;
     }
-    &__projects{
+    &__project{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 2rem;
     }
 
     
