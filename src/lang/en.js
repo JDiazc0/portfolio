@@ -25,9 +25,10 @@ export default {
   aboutMe: {
     title: "About Me",
     description: [
-      `I am a full-stack developer with specialization in backend and a growing interest in game development. I am passionate about creating efficient and well-structured solutions, combining my university education with self-taught learning and personal projects.`,
-      `My main focus is on API Rest development and optimization with frameworks such as Laravel and Spring, in addition to expanding my .NET knowledge and strengthening my proficiency in C#, PHP and Java.`,
-      `Recently, I've started exploring video game development with Unity, applying my skills in logic and code structuring to create interactive experiences. Beyond technology, I value teamwork, organization, and continuous improvement.`,
+      `Systems engineer with backend experience, exploring video game development in Unity.`,
+      `As a backend developer, I have worked with Laravel and Spring, with knowledge in .NET, applying best practices to build scalable solutions. Currently, I am expanding my focus to video game development with Unity, integrating my experience in programming logic and software architecture to create interactive experiences.`,
+      `I am passionate about designing efficient systems and solving complex problems. Now, I apply that knowledge in the game dev world, exploring mechanics, optimization and structures to build games with impact.`,
+      `I'm always open to new opportunities and collaborations in technology and video games. If you want to connect, let's talk!`,
     ],
     email: "Email",
     resume: "Resume",
