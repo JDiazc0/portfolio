@@ -33,7 +33,7 @@ export default function Footer() {
             </a>
             <a href="https://cerodev.itch.io/">
               <ItchioIcon
-                styling={{ size: `24px`, stroke: `var(--font-color)` }}
+                styling={{ size: `24px`, fill: `var(--font-color)` }}
               />
             </a>
             <a href="/cv_Jhoan_Diaz.pdf" download="cv_Jhoan_Diaz.pdf">
