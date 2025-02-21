@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Curriculum from "./pages/curriculum";
 import Home from "./pages/Home";
+import AboutMe from "./pages/AboutMe";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                 <main className="main-content">
                   <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/aboutme" element={<AboutMe />} />
                   </Routes>
                 </main>
                 <Footer />

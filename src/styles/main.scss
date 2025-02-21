@@ -1,6 +1,9 @@
 @use "./components/navbar" as *;
 @use "./components/footer" as *;
 @use "./components/home" as *;
+@use "./components/aboutMe" as *;
+@use "./components/experience" as *;
+@use "./components/techstack" as *;
 @use "variables" as *;
 
 body {
