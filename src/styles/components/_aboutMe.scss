@@ -3,7 +3,7 @@
 .aboutme {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 100px;
     height: 100vh;
     h1 {
         color: var(--font-color);
@@ -13,6 +13,7 @@
     &__container{
         display: flex;
         justify-content: space-between;
+        height: 100%;
 
         &__text{
             color: var(--secondary-color);

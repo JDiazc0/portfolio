@@ -4,6 +4,8 @@
 @use "./components/aboutMe" as *;
 @use "./components/experience" as *;
 @use "./components/techstack" as *;
+@use "./components/projects" as *;
+@use "./components/project" as *;
 @use "variables" as *;
 
 body {

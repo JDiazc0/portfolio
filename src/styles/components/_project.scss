@@ -1,0 +1,34 @@
+@use "../variables" as *;
+
+.project_component{
+    display: grid;
+    grid-template-columns: repeat(6, rf);
+    color: var(--font-color);
+    &__image{
+        grid-column: 1/2;
+        img {
+            width: 300px;
+            height: auto;
+        }
+    }
+    &__info{
+        grid-column: 2/7;
+        &__stack{
+            display: flex;
+            gap: 1rem;
+            span {  
+                padding: 0.3rem 1rem;
+                border: 1px solid var(--secondary-color);
+                border-radius: 999px;
+                color: var(--secondary-color);
+            }
+        }
+        &__description{
+            color: var(--secondary-color);
+        }
+        &__links{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}

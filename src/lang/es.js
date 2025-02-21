@@ -58,4 +58,18 @@ export default {
       },
     },
   ],
+  projects: {
+    title: "Proyectos",
+    project: [
+      {
+        projectImage: "/projectScreen/VirtualMarket.png",
+        projectTitle: "Virtual Market Backend",
+        projectTechnologies: ["PHP", "Laravel", "Insomnia", "PostgreSQL"],
+        projectDescription:
+          "API Rest para prueba técnica, con endpoints para la gestión de tiendas, productos, clientes y pedidos.",
+        projectLink: "",
+        projectRepository: "https://github.com/JDiazc0/virtual-market-backend",
+      },
+    ],
+  },
 };
