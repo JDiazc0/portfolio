@@ -3,6 +3,7 @@ import Logo from "../assets/images/Logo.png";
 import GithubIcon from "../assets/icons/github-icon";
 import CVIcon from "../assets/icons/cv-icon";
 import LinkedinIcon from "../assets/icons/linkedin-icon";
+import ItchioIcon from "../assets/icons/itchio-icon";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -27,6 +28,11 @@ export default function Footer() {
             </a>
             <a href="https://www.linkedin.com/in/jhoan-andres-diaz-casta%C3%B1o/">
               <LinkedinIcon
+                styling={{ size: `24px`, stroke: `var(--font-color)` }}
+              />
+            </a>
+            <a href="https://cerodev.itch.io/">
+              <ItchioIcon
                 styling={{ size: `24px`, stroke: `var(--font-color)` }}
               />
             </a>
@@ -61,10 +67,13 @@ export default function Footer() {
               <a href="/curriculum">Curriculum</a>
             </li>
             <li>
-              <a href="/aboutme">{t("navbar.projects")}</a>
+              <a href="/projects">{t("navbar.projects")}</a>
             </li>
             <li>
               <a href="/blog">{t("navbar.contact")}</a>
+            </li>
+            <li>
+              <a href="https://cerodev.itch.io/">Itchio</a>
             </li>
           </ul>
         </div>
