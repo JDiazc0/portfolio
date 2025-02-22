@@ -1,5 +1,5 @@
 import { useLanguage } from "../context/LanguageContext";
-import rat from "../assets/images/RatProgramming.png";
+import aboutmeimg from "../assets/images/AboutImg.jpg";
 import Experience from "../components/Experience";
 import TechStack from "../components/TechStack";
 
@@ -31,7 +31,7 @@ export default function AboutMe() {
             ))}
           </div>
           <div className="aboutme__container__info">
-            <img src={rat} alt="RatProgrammer" />
+            <img src={aboutmeimg} alt="RatProgrammer" />
             <div className="aboutme__container__info--contact">
               <div className="aboutme__container__info--contact--email">
                 <p>

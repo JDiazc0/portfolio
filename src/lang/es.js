@@ -82,4 +82,11 @@ export default {
       },
     ],
   },
+  contact: {
+    title: "Contacto",
+    name: "Nombre",
+    email: "Correo",
+    message: "Mensaje",
+    send: "Enviar",
+  },
 };

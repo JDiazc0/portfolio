@@ -1,0 +1,96 @@
+@use "../variables" as *;
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    height: 100vh;
+
+    h1 {
+        color: var(--font-color);
+        font-size: 2rem;
+    }
+
+    &__fields {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+        color: var(--font-color);
+
+        &__name {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            justify-content: space-between;
+
+            &--name {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                input {
+                    background-color: var(--primary-color);
+                    font-size: 16px;
+                    font-family: $font-primary;
+                    color: var(--font-color);
+                    border-radius: 5px;
+                    border: 1px solid var(--secondary-color);
+                    width: 550px;
+                    height: 30px;
+                }
+            }
+
+            &--email {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                input {
+                    background-color: var(--primary-color);
+                    font-size: 16px;
+                    font-family: $font-primary;
+                    color: var(--font-color);
+                    border-radius: 5px;
+                    border: 1px solid var(--secondary-color);
+                    width: 550px;
+                    height: 30px;
+                }
+            }
+        }
+
+        &__message label {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            textarea {
+                background-color: var(--primary-color);
+                font-size: 16px;
+                font-family: $font-primary;
+                color: var(--font-color);
+                border-radius: 5px;
+                border: 1px solid var(--secondary-color);
+                width: auto;
+                height: 300px;
+                resize: none;
+            }
+        }
+
+        &__button button {
+            border: none;
+            background: var(--tertiary-color);
+            padding: 1rem 2rem;
+            border-radius: 999px;
+            font-family: $font-primary;
+            font-size: 16px;
+            font-weight: $font-bold;
+            color: var(--font-color);
+            cursor: pointer;
+            transition: all 0.3s;
+            :active {
+                transform: scale(95);
+            }
+        }
+    }
+}
