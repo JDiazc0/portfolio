@@ -36,7 +36,7 @@ export default function Footer() {
                 styling={{ size: `24px`, fill: `var(--font-color)` }}
               />
             </a>
-            <a href="/cv_Jhoan_Diaz.pdf" download="cv_Jhoan_Diaz.pdf">
+            <a href={t("cv.file")} download={t("cv.file")}>
               <CVIcon styling={{ size: `24px`, fill: `var(--font-color)` }} />
             </a>
           </div>
@@ -70,7 +70,7 @@ export default function Footer() {
               <a href="/projects">{t("navbar.projects")}</a>
             </li>
             <li>
-              <a href="/blog">{t("navbar.contact")}</a>
+              <a href="/contact">{t("navbar.contact")}</a>
             </li>
             <li>
               <a href="https://cerodev.itch.io/">Itchio</a>

@@ -89,4 +89,7 @@ export default {
     message: "Message",
     send: "Send",
   },
+  cv: {
+    file: "/cv_Jhoan_Diaz_en.pdf",
+  },
 };
