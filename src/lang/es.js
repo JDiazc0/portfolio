@@ -92,4 +92,25 @@ export default {
   cv: {
     file: "/cv_Jhoan_Diaz_es.pdf",
   },
+  blog: {
+    title: "Blog",
+    read: "Leer más",
+    notFound: "Página no encontrada",
+    blogs: [
+      {
+        title: "Doppel: Mi primer juego en Unity",
+        date: "24-02-2025",
+        preview:
+          "El 16 de enero inicié un nuevo reto en mi carrera: aprender Unity a través del bootcamp de Generation Colombia.",
+        topics: ["Unity", "C#", "Game Development"],
+        url: "doppel",
+        content: [
+          `El 16 de enero inicié un nuevo reto en mi carrera: aprender Unity a través del bootcamp de Generation Colombia. Durante semanas, fui explorando el motor, sus herramientas y las mejores prácticas de desarrollo de videojuegos. Como parte del proceso, desarrollé Doppel, un plataformas 2D que me permitió experimentar con programación, diseño visual y mecánicas de juego. Mi objetivo con este proyecto fue no solo aprender a usar Unity, sino también crear una experiencia jugable que reflejara mi crecimiento en esta etapa.`,
+          `En el desarrollo de Doppel, me enfoqué en varios aspectos fundamentales. Implementé los controles del personaje, las físicas del juego y la lógica detrás de cada nivel, lo que me permitió comprender a fondo la programación en Unity. También me encargué del diseño visual, creando el stylesheet y definiendo la estética del juego. En cuanto al diseño de niveles, construí cada escenario buscando un balance entre desafío y diversión. Para complementar el arte del juego, colaboré con la comunidad utilizando un background de un creador en Itch.io, https://macrune12.itch.io/parallax-forest.`,
+          `Este proyecto me dejó importantes aprendizajes que han enriquecido mi comprensión del desarrollo de videojuegos. Aprendí sobre la estructuración del código en Unity, descubriendo cómo mantenerlo limpio y escalable para futuros desarrollos. También profundicé en el uso de assets y su correcta integración en el juego, así como en la importancia del diseño de niveles y su impacto directo en la experiencia del jugador.`,
+          `Doppel representa solo el comienzo de mi viaje en el desarrollo de videojuegos. Este primer paso me ha motivado a seguir creando y ya me encuentro trabajando en nuevas ideas para futuros proyectos. Esta experiencia ha sido fundamental para mi crecimiento como desarrollador y estoy emocionado por lo que vendrá en el futuro.`,
+        ],
+      },
+    ],
+  },
 };

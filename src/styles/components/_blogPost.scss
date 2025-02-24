@@ -1,0 +1,19 @@
+@use "../variables" as *;
+
+.blogpost{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    height: auto;
+    &__title{
+        color: var(--font-color);
+        h1{
+            font-size: 2rem;
+        }
+    }
+    &__content{
+        color: var(--secondary-color);
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}

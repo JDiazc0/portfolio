@@ -7,6 +7,9 @@
 @use "./components/projects" as *;
 @use "./components/project" as *;
 @use "./components/contact" as *;
+@use "./components/blog" as *;
+@use "./components/blogPreview" as *;
+@use "./components/blogPost" as *;
 @use "variables" as *;
 
 body {

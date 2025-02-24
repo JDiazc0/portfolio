@@ -17,16 +17,16 @@ export default function Navbar() {
             </a>
           </div>
           <div className="navbar__links">
-            <a href="aboutme" className="navbar__links--link">
+            <a href="/aboutme" className="navbar__links--link">
               {t("navbar.aboutMe")}
             </a>
-            <a href="blog" className="navbar__links--link">
+            <a href="/blog" className="navbar__links--link">
               {t("navbar.blog")}
             </a>
-            <a href="projects" className="navbar__links--link">
+            <a href="/projects" className="navbar__links--link">
               {t("navbar.projects")}
             </a>
-            <a href="contact" className="navbar__links--link">
+            <a href="/contact" className="navbar__links--link">
               {t("navbar.contact")}
             </a>
           </div>

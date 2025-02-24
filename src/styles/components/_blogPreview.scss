@@ -1,0 +1,47 @@
+@use "../variables" as *;
+
+.preview{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    &__date{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        p {
+            padding: 0;
+        }
+        color: var(--secondary-color);
+    }
+    &__title{
+        color: var(--font-color);
+    }
+    &__preview{
+        color: var(--secondary-color);
+        font-size: 15px;
+    }
+    &__topics{
+        display: flex;
+        gap: 1rem;
+        padding-top: 1.5rem;
+        span {  
+            padding: 0.3rem 1rem;
+            border: 1px solid var(--font-color);
+            border-radius: 999px;
+            background-color: var(--background-color);
+            color: var(--font-color);
+        }
+    }
+    &__read{
+    a{
+        text-decoration: none;
+        font-weight: $font-bold;
+        color: var(--font-color);
+        cursor: pointer;
+    }}
+
+}

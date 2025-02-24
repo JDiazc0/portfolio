@@ -92,4 +92,24 @@ export default {
   cv: {
     file: "/cv_Jhoan_Diaz_en.pdf",
   },
+  blog: {
+    title: "Blog",
+    read: "Read more",
+    notFound: "Blog post not found",
+    blogs: [
+      {
+        title: "Doppel: My first Unity game",
+        date: "02-24-2025",
+        preview: `On January 16 I started a new challenge in my career: learning Unity through Generation Colombia's bootcamp.`,
+        topics: [`Unity`, `C#`, `Game Development`],
+        url: `doppel`,
+        content: [
+          `On January 16th I started a new challenge in my career: learning Unity through the Generation Colombia bootcamp. For weeks, I explored the engine, its tools and the best practices of video game development. As part of the process, I developed Doppel, a 2D platformer that allowed me to experiment with programming, visual design and game mechanics. My goal with this project was not only to learn how to use Unity, but also to create a playable experience that reflected my growth at this stage.`,
+          `In developing Doppel, I focused on several fundamental aspects. I implemented the character controls, the physics of the game and the logic behind each level, which allowed me to thoroughly understand Unity programming. I was also in charge of the visual design, creating the stylesheet and defining the aesthetics of the game. As for the level design, I built each scenario looking for a balance between challenge and fun. To complement the art of the game, I collaborated with the community using a background of a creator in Itch.io, https://macrune12.itch.io/parallax-forest.`,
+          `This project left me with important learnings that have enriched my understanding of game development. I learned about structuring code in Unity, discovering how to keep it clean and scalable for future development. I also delved into the use of assets and their correct integration into the game, as well as the importance of level design and its direct impact on the player's experience.`,
+          `Doppel represents just the beginning of my journey in game development. This first step has motivated me to continue creating and I am already working on new ideas for future projects. This experience has been fundamental to my growth as a developer and I'm excited for what's to come in the future.`,
+        ],
+      },
+    ],
+  },
 };
