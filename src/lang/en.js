@@ -47,7 +47,7 @@ export default {
       resume: {
         text: [
           `I designed and developed an informative web catalog for MrDogKat, a company specialized in natural snacks for pets.`,
-          `The project focused on creating a modern and attractive platform using React and Tailwind CSS. I implemented an intuitive filtering system that allows users to explore products by categories, along with an informative section about the company. Special emphasis was placed on creating a clean and responsive interface that reflects the quality of the brand's natural products.`,
+          `The project focused on creating a modern and attractive platform using React and SASS. I implemented an intuitive filtering system that allows users to explore products by categories, along with an informative section about the company. Special emphasis was placed on creating a clean and responsive interface that reflects the quality of the brand's natural products.`,
           `The implementation included:`,
         ],
         list: [

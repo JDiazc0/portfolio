@@ -53,7 +53,7 @@ export default {
         list: [
           `Componentes React reutilizables para la visualización de productos.`,
           `Sistema de filtrado dinámico usando estados de React.`,
-          `Diseño responsive y moderno utilizando Tailwind CSS.`,
+          `Diseño responsive y moderno utilizando SASS.`,
           `Sección "Sobre Nosotros" con información corporativa.`,
         ],
       },
