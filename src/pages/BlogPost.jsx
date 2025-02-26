@@ -23,11 +23,7 @@ export default function BlogPost() {
           <h1>{blog.title}</h1>
           <p>{blog.date}</p>
         </div>
-        <div className="blogpost__content">
-          {blog.content.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
-          ))}
-        </div>
+        <div className="blogpost__content">{blog.content}</div>
       </section>
     </>
   );

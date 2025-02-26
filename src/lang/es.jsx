@@ -104,12 +104,71 @@ export default {
           "El 16 de enero inicié un nuevo reto en mi carrera: aprender Unity a través del bootcamp de Generation Colombia.",
         topics: ["Unity", "C#", "Game Development"],
         url: "doppel",
-        content: [
-          `El 16 de enero inicié un nuevo reto en mi carrera: aprender Unity a través del bootcamp de Generation Colombia. Durante semanas, fui explorando el motor, sus herramientas y las mejores prácticas de desarrollo de videojuegos. Como parte del proceso, desarrollé Doppel, un plataformas 2D que me permitió experimentar con programación, diseño visual y mecánicas de juego. Mi objetivo con este proyecto fue no solo aprender a usar Unity, sino también crear una experiencia jugable que reflejara mi crecimiento en esta etapa.`,
-          `En el desarrollo de Doppel, me enfoqué en varios aspectos fundamentales. Implementé los controles del personaje, las físicas del juego y la lógica detrás de cada nivel, lo que me permitió comprender a fondo la programación en Unity. También me encargué del diseño visual, creando el stylesheet y definiendo la estética del juego. En cuanto al diseño de niveles, construí cada escenario buscando un balance entre desafío y diversión. Para complementar el arte del juego, colaboré con la comunidad utilizando un background de un creador en Itch.io, https://macrune12.itch.io/parallax-forest.`,
-          `Este proyecto me dejó importantes aprendizajes que han enriquecido mi comprensión del desarrollo de videojuegos. Aprendí sobre la estructuración del código en Unity, descubriendo cómo mantenerlo limpio y escalable para futuros desarrollos. También profundicé en el uso de assets y su correcta integración en el juego, así como en la importancia del diseño de niveles y su impacto directo en la experiencia del jugador.`,
-          `Doppel representa solo el comienzo de mi viaje en el desarrollo de videojuegos. Este primer paso me ha motivado a seguir creando y ya me encuentro trabajando en nuevas ideas para futuros proyectos. Esta experiencia ha sido fundamental para mi crecimiento como desarrollador y estoy emocionado por lo que vendrá en el futuro.`,
-        ],
+        content: (
+          <div>
+            <p>
+              El 16 de enero inicié un nuevo reto en mi carrera: aprender Unity
+              a través del bootcamp de{" "}
+              <a href="https://colombia.generation.org/">Generation Colombia</a>
+              . Durante semanas, fui explorando el motor, sus herramientas y las
+              mejores prácticas de desarrollo de videojuegos.
+            </p>
+            <p>
+              Como parte del proceso, desarrollé <strong>Doppel</strong>, un
+              plataformas 2D que me permitió experimentar con programación,
+              diseño visual y mecánicas de juego. Mi objetivo con este proyecto
+              fue no solo aprender a usar Unity, sino también crear una
+              experiencia jugable que reflejara mi crecimiento en esta etapa.
+            </p>
+            <img src="/blog/Doppel_blog.png" alt="" />
+            <h3>¿Qué hice en Doppel?</h3>
+            <ul>
+              <li>
+                Programación y mecánicas: Implementé los controles del
+                personaje, las físicas del juego y la lógica detrás de cada
+                nivel.
+              </li>
+              <li>
+                Diseño visual: Creé el stylesheet y definí la estética del
+                juego.
+              </li>
+              <li>
+                Colaboración con la comunidad: Usé un background de{" "}
+                <a href="https://macrune12.itch.io/parallax-forest.">
+                  Macrune 12
+                </a>{" "}
+                creador en Itch.io para complementar el arte del juego.
+              </li>
+              <li>
+                Level Design: Construí los niveles buscando un balance entre
+                desafío y diversión.
+              </li>
+            </ul>
+            <h3>¿Qué aprendí?</h3>
+            <ul>
+              <li>
+                {" "}
+                Estructuración del código en Unity para mantenerlo limpio y
+                escalable.
+              </li>
+              <li>
+                Uso de assets y cómo integrarlos correctamente en un juego.
+              </li>
+              <li>
+                Diseño de niveles y su impacto en la experiencia del jugador.
+              </li>
+            </ul>
+            <p>
+              Este es solo el comienzo. Doppel fue mi primer paso en el
+              desarrollo de videojuegos y ya estoy trabajando en nuevas
+              ideas.¡Nos vemos en el siguiente proyecto!
+            </p>
+            <p>
+              🔗 Prueba el juego aquí:{" "}
+              <a href="https://cerodev.itch.io/doppel">Doppel</a>
+            </p>
+          </div>
+        ),
       },
     ],
   },
