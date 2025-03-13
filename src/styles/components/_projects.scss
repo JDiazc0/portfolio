@@ -2,8 +2,8 @@
 .projects{
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    height: 100vh; 
+    padding: 100px 0;
+    height: fit-content; 
     h1{
         color: var(--font-color);
         font-size: 2rem;

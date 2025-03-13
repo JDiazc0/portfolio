@@ -63,6 +63,23 @@ export default {
     title: "Proyectos",
     project: [
       {
+        projectImage: "/projectScreen/GameJam2.png",
+        projectTitle: "Tiempos Pasados",
+        projectTechnologies: ["Unity", "C#"],
+        projectDescription:
+          "Juego 2D con vista top-down que aborda la importancia de soltar cargas emocionales para liberar nuestra perspectiva de la vida. Me encargué de programar las mecánicas principales, la interacción del jugador con el entorno, el efecto de visión nublada, las condiciones de derrota o victoria, y la funcionalidad de las pantallas UI.",
+        projectLink: "https://josedavdmast3r.itch.io/tiempos-pasados",
+        projectRepository: "https://github.com/jocabago15/Tiempos-Pasados",
+      },
+      {
+        projectImage: "/projectScreen/GameJam1.png",
+        projectTitle: "Parasite Attack",
+        projectTechnologies: ["Unity", "C#"],
+        projectDescription:
+          "Videojuego 3D en el que tomamos el papel de un parásito cuyo objetivo es infectar y eliminar a los tripulantes de una nave. En este proyecto, me encargué de programar la interacción con los NPCs y corregir diversos errores para mejorar la jugabilidad.",
+        projectLink: "https://arcktx.itch.io/parasites-attack",
+      },
+      {
         projectImage: "/projectScreen/Doppel.png",
         projectTitle: "Doppel",
         projectTechnologies: ["Unity", "C#"],

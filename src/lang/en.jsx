@@ -63,6 +63,23 @@ export default {
     title: "Projects",
     project: [
       {
+        projectImage: "/projectScreen/GameJam2.png",
+        projectTitle: "Tiempos Pasados",
+        projectTechnologies: ["Unity", "C#"],
+        projectDescription:
+          "A 2D top-down game that explores the idea that letting go of emotional burdens clears our vision and enriches life. I was responsible for programming core mechanics, player interaction with the environment, the blurred vision effect, win/loss conditions, and implementing UI screen functionalities.",
+        projectLink: "https://josedavdmast3r.itch.io/tiempos-pasados",
+        projectRepository: "https://github.com/jocabago15/Tiempos-Pasados",
+      },
+      {
+        projectImage: "/projectScreen/GameJam1.png",
+        projectTitle: "Parasite Attack",
+        projectTechnologies: ["Unity", "C#"],
+        projectDescription:
+          "A 3D game where players take on the role of a parasite with the goal of infecting and eliminating the spaceship crew. In this project, I was responsible for programming NPC interactions and fixing various bugs to enhance gameplay.",
+        projectLink: "https://arcktx.itch.io/parasites-attack",
+      },
+      {
         projectImage: "/projectScreen/Doppel.png",
         projectTitle: "Doppel",
         projectTechnologies: ["Unity", "C#"],

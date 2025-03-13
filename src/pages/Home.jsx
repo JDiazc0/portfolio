@@ -7,34 +7,15 @@ import ItchioIcon from "../assets/icons/itchio-icon";
 
 export default function Home() {
   const { t } = useLanguage();
-  const [isBack, setIsBack] = useState(true);
-  const [fade, setFade] = useState("fade-in");
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFade("fade-out");
-
-      setTimeout(() => {
-        setIsBack((prev) => !prev);
-        setFade("fade-in");
-      }, 500);
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div className="home">
       <div className="home__title">
         <h1>{t("home.title")}</h1>
-        <h2 className={fade}>
-          {isBack ? t("home.stackBack") : t("home.stackGame")}
-        </h2>
+        <h2>{t("home.stackGame")}</h2>
       </div>
       <div className="home__description">
-        <p className={fade}>
-          {isBack ? t("home.descriptionBack") : t("home.descriptionGame")}
-        </p>
+        <p>{t("home.descriptionGame")}</p>
       </div>
       <div className="home__buttons">
         <a href="https://github.com/JDiazc0">
